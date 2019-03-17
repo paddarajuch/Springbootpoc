@@ -1,0 +1,8 @@
+applications:
+  - name: Rajuspringbootapplication 
+    buildpack: java_buildpack
+    path: build/libs/Springbootpoc-0.0.1-SNAPSHOT.jar
+    domain : cfapps.io
+    memory: 900M
+    instances: 1
+    
